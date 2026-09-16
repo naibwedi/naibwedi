@@ -5,7 +5,7 @@ Currently developing industrial software at **Red Rock** (Avalonia / .NET 8 / Be
 while finishing my B.Eng. in Computer Engineering at the University of Agder.
 
 🌐 Portfolio: [naibtech.dev](https://naibtech.dev) &nbsp;•&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/naib-mehari-95690114a/) &nbsp;•&nbsp; 📫 naibmehari@gmail.com
-📍 Kristiansand, Norway &nbsp;•&nbsp; 🗣️ Norwegian, English, Tigrinya, Arabic
+&nbsp;•&nbsp; 🗣️ Norwegian, English, Tigrinya, Arabic
 
 ---
 
