@@ -16,6 +16,7 @@ while finishing my B.Eng. in Computer Engineering at the University of Agder.
 **Frontend:** React, React Native, Expo, HTML/CSS, Sass, Bootstrap
 **Industrial / Desktop:** Avalonia UI, ReactiveUI, MVVM, TwinCAT ADS
 **Data & DevOps:** SQL, PostgreSQL, SQLite, Firebase, Docker, GitHub Actions, GitLab CI
+**ML / Data:** Tsetlin Machines, scikit-learn, XGBoost/LightGBM, leakage-safe pipelines, Next.js + FastAPI AI services
 
 ---
 
@@ -23,11 +24,12 @@ while finishing my B.Eng. in Computer Engineering at the University of Agder.
 
 | Project | What it is | Stack |
 |---------|-----------|-------|
+| [HabeshaVoice Studio](https://github.com/naibwedi/habeshavoice-studio) | Full-stack AI speech-to-text product for Tigrinya & Amharic — Next.js app + isolated FastAPI ASR inference service | Next.js, TypeScript, FastAPI, Python, Vercel Blob |
+| [Tsetlin Market Lab](https://github.com/naibwedi/tsetlin-market-lab) | Interpretable ML research: Tsetlin Machine vs gradient-boosting baselines on market microstructure, with a leakage-safe, CI-driven pipeline | Python, Tsetlin Machines, XGBoost, GitHub Actions |
+| [Selam — A Sacred Journey](https://github.com/naibwedi/eritrea-sacred-journey) | Immersive 3D journey through Eritrean Orthodox-inspired architecture and sacred art | Three.js, JavaScript, WebGL, Web Audio |
 | [Logi-Track](https://github.com/naibwedi/Logi-Track) | Full-stack logistics management platform with real-time tracking | C#, ASP.NET MVC, SignalR, EF, Docker |
 | [CampusCart](https://github.com/naibwedi/Campus-Cart-App) | Student marketplace app with AI image moderation | React Native, TypeScript, Expo |
-| [Student Assessment App](https://github.com/naibwedi/Student-Assesment-App) | Mobile grade-tracking app for educators | React Native, TypeScript, Firebase |
 | [FlowLingo](https://github.com/naibwedi/FlowLingo) | Android translation keyboard (native Kotlin IME + Flutter) | Kotlin, Flutter, Dart |
-| [Tigrigna → Latin](https://github.com/naibwedi/Tigrigna-to-latin-traslator) | Web transliterator for Geez script — [live](https://tigrigna-latin.netlify.app/) | HTML, CSS, JS |
 
 ---
 
