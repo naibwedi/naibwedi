@@ -71,9 +71,11 @@ flowchart LR
 
 | Project | What it is | Stack | Links |
 |---|---|---|---|
-| **HabeshaVoice Studio** | Speech-to-text product for Tigrinya & Amharic | Next.js · FastAPI · Ethio-ASR | [Source](https://github.com/naibwedi/habeshavoice-studio) |
+| **HabeshaVoice Studio** | Speech-to-text product for Tigrinya & Amharic | Next.js · FastAPI · Ethio-ASR | [Live](https://habeshavoice-studio.vercel.app) · [Source](https://github.com/naibwedi/habeshavoice-studio) |
 | **Tsetlin Market Lab** | Predicts the *next bookmaker price move* with a Tsetlin Machine vs XGBoost/LightGBM baselines — leakage-safe, time-ordered splits, cron-collected data, human-readable clauses. Research, not betting tips. | Python · tmu · GitHub Actions | [Source](https://github.com/naibwedi/tsetlin-market-lab) |
 | **LogicAlpha** | Purged walk-forward strategy selection with Boolean features, cost-aware backtests and an optional Tsetlin Machine | Python | [Source](https://github.com/naibwedi/logic-alpha-tm) |
+| **Tsetlin Trader** | Interpretable trading engine — Tsetlin Machine rule-based signals executed as paper trades through a pluggable broker interface; every decision ships with the human-readable logic behind it | Python | [Source](https://github.com/naibwedi/tsetlin-trader) |
+| **Decidon** | Fuses multiple decision engines (ML models, rules) into one calibrated, replayable verdict | Python | [Source](https://github.com/naibwedi/decidon) |
 | **CampusCart** | Student marketplace whose uploads pass a Cloud Vision moderation pipeline that deletes flagged images and notifies the seller | React Native · Firebase · Cloud Functions | [Source](https://github.com/naibwedi/Campus-Cart-App) |
 
 ### 🌐 Web & Creative
