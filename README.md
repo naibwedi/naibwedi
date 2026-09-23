@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:14100A,100:C9963A&height=190&section=header&text=Naibe%20Mehari%20Tekle&fontSize=44&fontColor=F3E6C8&fontAlignY=38&desc=ሰላም%20%E2%80%94%20Software%20Engineer&descSize=20&descColor=F3E6C8&descAlignY=60" width="100%" alt="Naibe Mehari Tekle — Software Engineer" />
 
 <a href="https://naibtech.dev">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=19&pause=1200&color=C9963A&center=true&vCenter=true&width=720&lines=Industrial+software+in+C%23+%2F+.NET;Speech+AI+for+Tigrinya+%26+Amharic;Interpretable+ML+%E2%80%94+Tsetlin+Machines;Immersive+3D+on+the+web" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=19&pause=1200&color=C9963A&center=true&vCenter=true&width=720&lines=Full-stack+backends+in+Python+%26+.NET;Speech+AI+for+Tigrinya+%26+Amharic;Interpretable+ML+%E2%80%94+Tsetlin+Machines;Cybersecurity+%E2%80%94+MSc+student;Immersive+3D+on+the+web" alt="Typing SVG" />
 </a>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-naibtech.dev-C9963A?style=for-the-badge&labelColor=14100A)](https://naibtech.dev)
@@ -11,7 +11,7 @@
 [![Email](https://img.shields.io/badge/Email-naibmehari%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:naibmehari@gmail.com)
 [![CV](https://img.shields.io/badge/CV-Download_PDF-14100A?style=for-the-badge&labelColor=C9963A&color=14100A)](https://naibtech.dev/Naibe-Mehari-CV.pdf)
 
-![Open to work](https://img.shields.io/badge/Open_to_work-Full--time_engineering_roles-2E7D32?style=flat-square)
+![Open to work](https://img.shields.io/badge/Open_to-Software_engineering_opportunities-2E7D32?style=flat-square)
 ![Based in](https://img.shields.io/badge/Based_in-Norway-14100A?style=flat-square)
 ![Languages](https://img.shields.io/badge/Speaks-Norsk_·_English_·_ትግርኛ_·_العربية-C9963A?style=flat-square&labelColor=14100A)
 
@@ -25,14 +25,18 @@
 
 ## 👋 About
 
-I'm a software engineer finishing my B.Eng. in Computer Engineering at the **University of Agder**, and I currently build industrial software at **Red Rock** — a live PLC data tool in C# / .NET 8 on Avalonia and Beckhoff TwinCAT ADS.
+I'm a full-stack developer at **Anzyz Technologies**, building Python / FastAPI backends with MongoDB, Celery and Elasticsearch — document ingestion and NLP that maps how concepts and themes connect. Before that I was a software engineer at **Red Rock** (Aug 2025 – Jun 2026), where I built a live PLC data tool in C# / .NET 8 on Avalonia and Beckhoff TwinCAT ADS.
+
+I finished my B.Eng. in Computer Engineering at the **University of Agder** in June 2026 and am now studying for a **Master's in Cybersecurity**.
 
 Outside work I build things nobody handed me a spec for: a speech studio for my own language, an interpretable-ML research lab, and a 3D walk through a church I'd love people to see.
 
 ```csharp
 var naibe = new Engineer
 {
-    DayJob    = "Industrial software @ Red Rock — Avalonia · ReactiveUI · TwinCAT ADS",
+    DayJob    = "Full-stack @ Anzyz — Python · FastAPI · MongoDB · Celery · Elasticsearch",
+    Before    = "Industrial software @ Red Rock — Avalonia · TwinCAT ADS",
+    Studying  = "Master's in Cybersecurity",
     Nights    = new[] { "Speech AI (Tigrinya/Amharic)", "Tsetlin Machine research", "Three.js" },
     Backbone  = new[] { "C# / .NET 8", "TypeScript", "Python" },
     Tongues   = new[] { "Norsk", "English", "ትግርኛ", "العربية" },
@@ -95,6 +99,13 @@ flowchart LR
 | **Student Assessment App** | Grade & assessment tracking for teachers | React Native · Firebase | [Source](https://github.com/naibwedi/Student-Assesment-App) |
 | **ADS Parameter Tool** | Reads live PLC symbols over TwinCAT ADS and visualises them (Red Rock — private) | C# · Avalonia · ReactiveUI | — |
 
+### 🛡️ Security
+
+| Project | What it is | Stack | Links |
+|---|---|---|---|
+| **Cross-Site Scripting demo** | A deliberately vulnerable Flask app plus an attacker server, showing an XSS attack end to end — including credential theft through a fake login page. Dockerised so it runs in isolation. | Flask · SQLite · Docker Compose | [Source](https://github.com/naibwedi/Cross-Site-Scripting) |
+| **User Authentication** | Hashed credentials (bcrypt), brute-force protection with rate limiting, TOTP two-factor auth, and an OAuth2 authorization-code flow | Flask · SQLite · Docker | [Source](https://github.com/naibwedi/User-Authentication) |
+
 ### ⚙️ Systems & Fundamentals
 
 | Project | What it is | Links |
@@ -116,10 +127,11 @@ flowchart LR
 | | |
 |---|---|
 | **Languages** | C#, TypeScript, Python, C++, C, JavaScript, Dart, Kotlin |
-| **Backend** | ASP.NET Core, EF Core, SignalR, FastAPI, Flask, REST |
+| **Backend** | FastAPI, ASP.NET Core, EF Core, SignalR, Flask, REST, Celery, MongoDB, Elasticsearch |
 | **Frontend / Mobile** | React, Next.js, React Native, Expo, Flutter, Three.js |
 | **Industrial / Desktop** | Avalonia UI, ReactiveUI (MVVM), Beckhoff TwinCAT ADS |
 | **Data & ML** | Tsetlin Machines, scikit-learn, XGBoost, LightGBM, leakage-safe pipelines |
+| **Security** | XSS exploitation & defence, bcrypt, TOTP 2FA, OAuth2, brute-force protection (MSc in progress) |
 | **Ops** | Docker, GitHub Actions, GitLab CI, Vercel |
 
 ---
@@ -137,7 +149,7 @@ flowchart LR
 
 ## 📫 Contact
 
-Open to full-time software engineering roles — especially C#/.NET, full-stack, or applied AI.
+Open to software engineering opportunities — full-stack (Python / .NET), applied AI, or security.
 
 **[naibtech.dev](https://naibtech.dev)** · **[LinkedIn](https://www.linkedin.com/in/naib-mehari-95690114a/)** · **naibmehari@gmail.com**
 
